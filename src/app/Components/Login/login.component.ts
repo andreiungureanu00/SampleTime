@@ -54,12 +54,6 @@ export class LoginComponent implements OnInit {
         },
       });
 
-      this._snackBar.open('Successful Login', '', {
-        horizontalPosition: 'center',
-        verticalPosition: 'top',
-        duration: 2000,
-      });
-
       setTimeout(() => {
         this.router.navigate(['/time']);
       }, 2000);
