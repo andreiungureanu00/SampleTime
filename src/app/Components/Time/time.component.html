@@ -1,0 +1,11 @@
+<div class="button-container">
+  <button mat-raised-button color="primary" (click)="logout()">Logout</button>
+</div>
+<div class="centered-container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Time</mat-card-title>
+    </mat-card-header>
+    {{ currentDateTime | timePipe }}
+  </mat-card>
+</div>

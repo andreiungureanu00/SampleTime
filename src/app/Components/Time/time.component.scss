@@ -1,0 +1,25 @@
+  .mat-card {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    text-align: center;
+
+
+    .mat-card-header {
+      margin-bottom: 2vh;
+      font-size: x-large;
+      justify-content: center;
+
+      .mat-card-title {
+        font-size: larger;
+      }
+
+    }
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: end;
+    margin: 1vh;
+  }

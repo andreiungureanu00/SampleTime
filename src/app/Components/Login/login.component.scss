@@ -1,0 +1,31 @@
+.login-container {
+  width: 20vw;
+
+  .mat-card {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+
+    .mat-card-header {
+      justify-content: center;
+      margin-bottom: 2vh;
+      font-size: x-large;
+
+      .mat-card-title {
+        font-size: larger;
+      }
+
+    }
+
+    .mat-card-actions {
+      display: flex;
+      justify-content: end;
+    }
+
+    .mat-form-field {
+      width: 100%;
+    }
+  }
+
+}
